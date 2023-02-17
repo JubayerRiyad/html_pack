@@ -178,4 +178,21 @@ test();
 
 
 
+# To Run this on your Source Code
+
+- Clone the project. This project comes with a script file called `addcopyright.sh` and few test files to test out things before you feel comfortable to try it on your source code.
+- Browse to the folder where you have cloned the project.
+- Change directory to `add-copyright` folder.
+- Open a shell or Gitbash or any unix command supported prompt.
+- Execute this command:
+  ```bash
+   export COPYRIGHTLEN=`wc -l copyright.txt | cut -f1 -d ' '`
+  ```
+  The above command will set some variable value that will be used by the `addcopyright.sh` script.
+- Execute the following command to add the copyright/license text from the `copyright.txt` to your source code:
+  ```bash
+   find <SOURCE_CODE_DIRECTIRY> -type d -name "<EXCLUDE_DIRECTORY>" -prune -o -name "*.js" -print0 | xargs -0 ./addcopyright.sh
+  ```
+  Where the `<SOURCE_CODE_DIRECTIRY>` is the path of your source code.
+  Where the `<EXCLUDE_DIRECTORY>` is the directory to exclude if it exists under `<SOURCE_CODE_DIRECTIRY>` for updating the Copyright information.
 
