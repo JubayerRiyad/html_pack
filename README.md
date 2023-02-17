@@ -12,7 +12,7 @@ The app is deployed using Vercel and Netlify. You can play around with it from h
 [![Netlify Status](https://api.netlify.com/api/v1/badges/246b2856-19c2-4886-b2e3-81417556e204/deploy-status)](https://app.netlify.com/sites/keyevents/deploys)
 
 Optionally, you can also play around with it from here, [https://stackblitz.com/edit/js-keycodes?file=index.js](https://stackblitz.com/edit/js-keycodes?file=index.js)
-# 👍 Want to Motivate?
+# 👍 Want to Motivate? 
 Thanks for your time to reading this. Feel free to clone/fork/improve. Who doesn't want motivations? Give the project a star(⭐) if you liked the work.
 
 ## Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
