@@ -115,7 +115,7 @@
 | open bracket  | 219 | [ | BracketLeft |
 | back slash    | 220 | \ | Backslash |
 | close bracket | 221 | ] | BracketRight |
-| single quote  | 222 | ' | Quote |
+| single quote  | 222 | ' | Quote | 
 
 
 
